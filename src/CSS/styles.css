@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 40px;
+  border: 10px solid #000000;
+  width: fit-content;
+}
+
+/* Input box styling */
+input {
+  width: 450px;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Button styling */
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #003d80;
+}
+
+#inc {
+  background-color: #4bdf73;
+}
+
+#inc:hover {
+  background-color: #2c9d4a;
+  transform: scale(0.98);
+}
+
+#inc:active {
+  background-color: #185628;
+}
+
+#dec {
+  background-color: #ed2f2f;
+}
+
+#dec:hover {
+  background-color: #cc2525;
+  transform: scale(0.98);
+}
+
+#dec:active {
+  background-color: #6d2020;
+}
+
+#res {
+  background-color: #eae318;
+}
+
+#res:hover {
+  background-color: #c3bd22;
+  transform: scale(0.98);
+}
+
+#res:active {
+  background-color: #75721c;
+}
+
+.btns {
+  display: block;
+  margin: 6px auto;
+}
+
+.wide {
+  width: 100%;
+}
